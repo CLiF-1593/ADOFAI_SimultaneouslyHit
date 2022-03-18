@@ -14,6 +14,7 @@ private:
 public:
 	void Open(string adofai_file_location); //파일 열기
 	void ChangeFile(); //변형
+	void ChangeFileOther();
 	void Save(string adofai_file_location); //저장
 };
 

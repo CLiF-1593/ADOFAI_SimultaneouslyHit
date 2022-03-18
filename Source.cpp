@@ -13,7 +13,8 @@ int main() {
 	cin >> path;
 	cout << "Converting . . ." << endl;
 	editor.Open(path);
-	editor.ChangeFile();
+	//editor.ChangeFile();
+	editor.ChangeFileOther();
 	cout << "Saving . . ." << endl;
 	editor.Save(path);
 	cout << "Completed!!" << endl;
